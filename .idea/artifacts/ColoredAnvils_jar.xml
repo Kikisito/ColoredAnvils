@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="ColoredAnvils:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ColoredAnvils_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ColoredAnvils.jar">
+        <element id="module-output" name="ColoredAnvils" />
+        <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+        <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      </element>
+      <element id="library" level="application" name="spigot-1.16.1" />
+    </root>
+  </artifact>
+</component>

@@ -82,7 +82,7 @@ public class ColorHandler {
 				matcher.appendReplacement(sb, ChatColor.of(hex.substring(1)).toString());
 			}
 			matcher.appendTail(sb);
-			finalmessage = ChatColor.translateAlternateColorCodes('&', sb.toString());
+			finalmessage = ChatColor.RESET + ChatColor.translateAlternateColorCodes('&', sb.toString());
 		} else {
 			finalmessage = org.bukkit.ChatColor.translateAlternateColorCodes('&', string);
 		}
